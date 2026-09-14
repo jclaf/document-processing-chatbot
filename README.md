@@ -1,19 +1,20 @@
-# Face Recognition System
+# Agent RAG 
 
-Un système de reconnaissance faciale intelligent et modulaire.
-
+Agent conversationnel RAG permettant de garantir la Data Quality et la conformité d'un document.
 ## Structure du projet
 
 ```
 face-recognition-system/
 ├── src/                    # Code source principal
-│   ├── models/            # Modèles de reconnaissance faciale
+│   ├── models/            # Modèles 
 │   ├── services/          # Services métier
 │   ├── routes/            # Routes API
 │   ├── middleware/        # Middlewares
 │   ├── utils/             # Fonctions utilitaires
 │   ├── config/            # Configuration
-│   └── main.py            # Point d'entrée
+│   ├── api_call.py         # Fonctions appel api 
+│   ├── streamlit_app.py    # Front End
+│   └── main.py            # Back End
 ├── data/
 │   ├── training/          # Données d'entraînement
 │   └── models/            # Modèles pré-entraînés

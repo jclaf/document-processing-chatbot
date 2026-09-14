@@ -9,9 +9,6 @@
 ## Installation
 
 1. **Cloner le projet**
-   ```bash
-   cd /home/jc/chatbot
-   ```
 
 2. **Créer un environnement virtuel**
    ```bash

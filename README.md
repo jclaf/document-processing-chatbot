@@ -1,24 +1,20 @@
 # Agent RAG chatbot
 
-Agent RAG permettant de garantir la Data Quality et la conformité d'un document analysé.
-
+Agent conversationnel RAG permettant de garantir la Data Quality et la conformité d'un document analysé.
 ## Structure du projet
 
 ```
-face-recognition-system/
+document-processing-chatbot/
 ├── src/                    # Code source principal
-│   ├── models/            # Modèles
+│   ├── models/            # Modèles 
 │   ├── services/          # Services métier
 │   ├── routes/            # Routes API
 │   ├── middleware/        # Middlewares
 │   ├── utils/             # Fonctions utilitaires
 │   ├── config/            # Configuration
-
-
-│   └── main.py            # Point d'entrée
-├── data/
-│   ├── training/          # Données d'entraînement
-│   └── models/            # Modèles pré-entraînés
+│   ├── api_call.py        # Fonctions appel api 
+│   ├── streamlit_app.py   # Front End
+│   └── main.py            # Back End
 ├── tests/
 │   ├── unit/              # Tests unitaires
 │   └── integration/       # Tests d'intégration

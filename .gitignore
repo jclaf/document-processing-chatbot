@@ -56,5 +56,6 @@ pyvenv.cfg
 bin/
 include/
 
+src/config/
 src/config/__pycache__/
 src/__pycache__/

@@ -41,7 +41,7 @@ python src/main.py
 ## Tests
 
 ```bash
-pytest tests/
+pytest -s -v tests/test_rag.py
 ```
 
 ## Documentation

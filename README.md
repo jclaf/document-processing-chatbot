@@ -27,19 +27,22 @@ document-processing-chatbot/
 ```
 
 ## Installation
-
+Créer un environnement pour le projet
+```bash
+python -m venv /dossier_cible/my_env
+source my_env/bin/activate
+```
+Installer les dépendances requises.
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Utilisation
+Ouvrir deux instances de terminal, ensuite faite tourner le serveur fastapi sur l'un puis le front-end streamlit sur l'autre avec les commandes suivantes :  
+- Depuis le dossier /src : ```bash uvicorn main:app --reload ``` 
+- Depuis la racine : ```bash uvicorn main:app --app-dir src --reload ```
+- ```bash streamlit run streamlit_app.py ```
 
-```bash
-Ouvrir deux instances de terminal sur le même environnement 
- - "uvicorn main:app --reload " or "uvicorn main:app --app-dir src --reload"
- - "streamlit run streamlit_app.py"
-python src/main.py
-```
 
 ## Tests
 

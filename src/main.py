@@ -12,7 +12,7 @@ from io import BytesIO
 from pypdf import PdfReader
 import os
 
-from api_call import call_rag_openrouter
+from utils.api_call import call_rag_openrouter
 
 setup_logging()
 

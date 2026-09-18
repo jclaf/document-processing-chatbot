@@ -36,8 +36,8 @@ pip install -r requirements.txt
 
 ```bash
 Ouvrir deux instances de terminal sur le même environnement 
- - uvicorn main:app --reload
- - streamlit run streamlit_app.py
+ - "uvicorn main:app --reload " or "uvicorn main:app --app-dir src --reload"
+ - "streamlit run streamlit_app.py"
 python src/main.py
 ```
 

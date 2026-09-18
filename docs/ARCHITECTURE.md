@@ -6,10 +6,6 @@ Le chatbot est structuré selon une architecture modulaire et scalable.
 
 ## Composants principaux
 
-### Models (`src/models/`)
-- Définition des modèles de données
-- Schémas de requêtes/réponses
-
 ### Services (`src/services/`)
 - Logique métier
 - Traitement des requêtes
@@ -32,16 +28,6 @@ Le chatbot est structuré selon une architecture modulaire et scalable.
 ### Config (`src/config/`)
 - Configuration de l'application
 - Gestion des variables d'environnement
-
-## Data (`data/`)
-
-### Training
-- Datasets d'entraînement
-- Données brutes
-
-### Models
-- Modèles pré-entraînés
-- Poids des réseaux de neurones
 
 ## Tests (`tests/`)
 

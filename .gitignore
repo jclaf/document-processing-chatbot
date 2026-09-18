@@ -37,6 +37,7 @@ logs/
 # Environment
 .env
 .env.local
+my_env
 
 # Data
 data/models/*.pkl
@@ -54,3 +55,6 @@ Thumbs.db
 pyvenv.cfg
 bin/
 include/
+
+src/config/__pycache__/
+src/__pycache__/

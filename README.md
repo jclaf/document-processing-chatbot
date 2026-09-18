@@ -1,18 +1,20 @@
-# Face Recognition System
+# Agent RAG chatbot
 
-Un système de reconnaissance faciale intelligent et modulaire.
+Agent RAG permettant de garantir la Data Quality et la conformité d'un document analysé.
 
 ## Structure du projet
 
 ```
 face-recognition-system/
 ├── src/                    # Code source principal
-│   ├── models/            # Modèles de reconnaissance faciale
+│   ├── models/            # Modèles
 │   ├── services/          # Services métier
 │   ├── routes/            # Routes API
 │   ├── middleware/        # Middlewares
 │   ├── utils/             # Fonctions utilitaires
 │   ├── config/            # Configuration
+
+
 │   └── main.py            # Point d'entrée
 ├── data/
 │   ├── training/          # Données d'entraînement
@@ -34,6 +36,9 @@ pip install -r requirements.txt
 ## Utilisation
 
 ```bash
+Ouvrir deux instances de terminal sur le même environnement 
+ - uvicorn main:app --reload
+ - streamlit run streamlit_app.py
 python src/main.py
 ```
 
